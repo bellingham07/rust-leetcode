@@ -1,6 +1,4 @@
-mod quick_sort;
-
-fn quick_sort(arr: &mut [i32], low: usize, high: usize) {
+pub fn quick_sort(arr: &mut [i32], low: usize, high: usize) {
     if low < high {
         let pivot = partition(arr, low, high);
         if pivot > 0 {
@@ -10,7 +8,7 @@ fn quick_sort(arr: &mut [i32], low: usize, high: usize) {
     }
 }
 
-fn partition(arr: &mut [i32], low: usize, high: usize) -> usize {
+pub fn partition(arr: &mut [i32], low: usize, high: usize) -> usize {
     let mut i = low;
     for j in low..high {
         if arr[j] < arr[high] {
