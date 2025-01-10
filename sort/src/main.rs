@@ -7,7 +7,31 @@ fn main() {
     // println!("{:?}", arr)
 
     // test merge sort
+    // let mut arr = vec![5, 4, 3, 2, 1];
+    // sort::merge_sort::merge_sort(&mut arr);
+    // println!("{:?}", arr)
+
+    // test bubble sort
+    // let mut arr = vec![5, 4, 3, 2, 1];
+    // sort::bubble_sort::bubble_sort(&mut arr);
+    // println!("{:?}", arr)
+
+    // test select sort
+    // let mut arr = vec![5, 4, 3, 2, 1];
+    // sort::select_sort::select_sort(&mut arr);
+    // println!("{:?}", arr)
+
+    // test insert sort
     let mut arr = vec![5, 4, 3, 2, 1];
-    sort::merge_sort::merge_sort(&mut arr);
+    sort::insert_sort::insert_sort(&mut arr);
     println!("{:?}", arr)
+
+    // let mut arr = vec![5, 4, 3, 2, 1];
+    // println!("{:?}", arr)
+
+    // let mut arr = vec![5, 4, 3, 2, 1];
+    // println!("{:?}", arr)
+
+    // let mut arr = vec![5, 4, 3, 2, 1];
+    // println!("{:?}", arr)
 }
